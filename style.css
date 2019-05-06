@@ -89,6 +89,11 @@
 
 ---------------------------------------------------------------- */
 
+@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
+div, h1, h2, h3, h4, h5, p, span, a {
+		font-family: 'Noto Sans TC' !important;
+		font-weight: 250 !important;
+}
 
 /* ----------------------------------------------------------------
 	Bootstrap Adjustments
@@ -1600,6 +1605,10 @@ body:not(.device-md):not(.device-sm):not(.device-xs) #primary-menu.style-2.cente
 		margin: 0;
 		float: none;
 		height: 100px;
+	}
+
+	#header.sticky-header #logo {
+		height: 80px;
 	}
 
 	#header.split-menu #logo a.standard-logo { display: inline-block; }
@@ -10426,7 +10435,7 @@ blockquote.float-right {
 .quote p { position: relative; }
 
 .quote:before {
-	font-family: 'font-icons';
+	font-family: 'font-icons' !important;
 	speak: none;
 	font-style: normal;
 	font-weight: normal;
